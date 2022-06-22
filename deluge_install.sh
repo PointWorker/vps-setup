@@ -9,7 +9,7 @@ apt install -y software-properties-common
 add-apt-repository -y ppa:deluge-team/stable
 apt update
 apt install -y deluge
-apt install -y deluged deluge-webui
+apt install -y deluged deluge-web
 
 adduser --system  --gecos "Deluge Service" --disabled-password --group --home /var/lib/deluge deluge
 mkdir -p /var/log/deluge
